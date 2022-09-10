@@ -1,0 +1,52 @@
+body {
+    /* background-color: #3b138a; */
+    background-image: url(https://media.giphy.com/media/l2Sqf1fbj1qrmaJ6E/giphy.gif);
+}
+.profile_picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    height: auto;
+    width: 100px;
+    max-width: 100px;
+    border-radius: 100px;
+    border: 3px solid #3b138a;
+}
+.name{
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #3b138a;
+    font-family: 'Fjalla One', sans-serif;
+}
+.links{
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+}
+.links>a{
+    text-decoration: none;
+    color: #3b138a;
+    border: 3px solid #3b138a;
+    background-color:white;
+    border-radius: 100px;
+    width: 400px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin: 5px 10px; */
+    padding: 10px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size:23px;
+}
+.links>a:hover{
+    background-color:azure;
+    animation: bounceIn;
+    animation-duration: 0.5s;
+    /* transform: scale(1.02); */
+}
